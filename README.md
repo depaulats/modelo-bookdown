@@ -12,15 +12,15 @@ Se precisar de ajuda para colocar o git/GitHub para funcionar com o RStudio, vej
 
 1. Clique no butão verde acima "Use este modelo" (*Use this template*). NÃO USE A OPÇÃO FORK. Dê um nome descritivo para o seu repositório de acordo com o conteúdo que deseja produzir. (Ao contrário do Fork, aqui você pode escolher o nome. Se mudar de idéia logo no início, apague seu repositório, e comece novamente).
 
-### Configure as páginas do GitHub
+### Configure as Páginas do GitHub
 
-1. Na página de início (*home*) do seu repositório, clique em configurações (*Settings*). Clique na seção "Páginas" (*Pages*) à esquerda. Na seção "Construção e Implantação" (*Build and Deployment*), defina a "Fonte" (*Source*) para "Implantar a partir de uma ramificação" (*Deploy from a branch*) e a "Ramificação" (*Branch*) para "principal" (*main*) com pasta "/docs". Clique em "Salvar" (*Save*). Acima da seção "Construção e Implantação" (*Build and Deployment*), um caixa de diálogo irá aparecer com a URL do seu livro. Copie a URL. (Note que algumas vezes há um atraso até que o livro aparece na URL. Se ele não aparecer após alguns minutos, mude e submeta (*commit*) algum arquivo para acionar a contrução das Páginas do GitHub.)GitHub Pages build.)	
+1. Na página de início (*home*) do seu repositório, clique em configurações (*Settings*). Clique na seção "Páginas" (*Pages*) à esquerda. Na seção "Construção e Implantação" (*Build and Deployment*), defina a "Fonte" (*Source*) para "Implantar a partir de uma ramificação" (*Deploy from a branch*) e a "Ramificação" (*Branch*) para "principal" (*main*) com pasta "/docs". Clique em "Salvar" (*Save*). Acima da seção "Construção e Implantação" (*Build and Deployment*), um caixa de diálogo irá aparecer com a URL do seu livro. Copie a URL. (Note que algumas vezes há um atraso até que o livro aparece na URL. Se ele não aparecer após alguns minutos, mude e submeta (*commit*) algum arquivo para acionar a contrução das Páginas do GitHub.)
 
 2. Clique no butão de engrenagem perto de "Sobre" (*About*) na página inicial do repositório e cole a URL do seu livro no campo "Website" que aparece à direita.
 
-### Copy the repo link (GitHub)
+### Copie o link do repositório no GitHub
 
-- [ ] 1. Click the green Code button and copy the link under HTTPS. It should have the format: `https://github.com/[USERNAME]/[REPO NAME].git`
+1. Clique no butão verde dde "Código" (*Code*) e copie o link sob HTTPS. Eele deve ter o formato: `https://github.com/[USUARIO]/[REPOSITORIO].git`
 
 ### Clone o repositório no RStudio
 
