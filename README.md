@@ -20,49 +20,50 @@ If you need help getting git/GitHub to work with RStudio see: [Happy Git and Git
 
 - [ ] 1. Click the green Code button and copy the link under HTTPS. It should have the format: `https://github.com/[USERNAME]/[REPO NAME].git`
 
-### Clone the repo (RStudio)
+### Clone o repositório no RStudio
 
-- [ ] 1. Clone your new repo with *File, New Project..., Version Control, Git* in RStudio. You will need to paste the link from the previous step in the Repository URL box.
+1. Clone seu novo repositório em *Arquivo > Novo Projeto... > Versão Controle > Git* no programa [RStudio](https://posit.co/download/rstudio-desktop/). Você precisará colar o link do passo anterior na caixa de diálogo para o URL do Repositório.
 
-### Edit some key files (RStudio)
+### Edite alguns arquivos chave usando o RStudio
 
-- [ ] 1. In `index.Rmd`, change YOUR TITLE HERE to your title.
+1. No arquivo `index.Rmd`, mude INSIRA SEU TITULO AQUI para o título do seu livro.
 
-- [ ] 2. In `index.Rmd`, change YOUR NAMES HERE to your names.
+2. No arquivo `index.Rmd`, mude INSIRA SEU NOME AQUI para o seu nome.
 
-- [ ] 3. In `_bookdown.yml`, change YOUR GITHUB USERNAME to your GitHub username in the two places it appears.
+3. No arquivo `_bookdown.yml`, mude SEU NOME DE USUARIO GITHUB para o seu nome do usuário no Github, nos dois lugares em que aparece.
 
-- [ ] 4. In `_bookdown.yml`, change YOUR GITHUB REPO to your GitHub repo name in the two places it appears.
+4. No arquivo `_bookdown.yml`, mude NOME DO SEU REPOSITORIO para o nome do seu repositorio do livro no Github, nos dois lugares em que aparece.
 
-(Note that 3. and 4. provide links to the `.Rmd` files of your project for editing and viewing. If you move your `.Rmd` files you will need to update these file paths. Once your book is rendered, test that the edit (pen) and view (eye) buttons work.)
+(Note que os passos 3 e 4 fornecem links para os arquivos `.Rmd` do seu projeto para edição e visualização. Se você mover seus arquivos `.Rmd``você terá que atualizar o caminho para esses arquivos. Uma vez o livro estando renderizado, teste se os butões para editar (caneta) e visualizar (olho)estão funcionando.)
 
-- [ ] 5. In `_output.yml`, change YOUR SHORT TITLE to a shortened version of your title. (Leave the "after:" line indicating that the book was published with bookdown as is.)
+5. No arquivo `_output.yml`, mude TITULO CURTO AQUI para uma versão encurtadado seu título. 
 
-### Render the book (RStudio)
+(Deixe as informações da linha seguinte a "after:" para indicar que seu livro foi publicado com bookdown na forma que está.)
 
-- [ ] 1. Install **bookdown** with `install.packages("bookdown")`. If you already have it, update to the most recent version.
+### Como renderizar o livro
 
-- [ ] 2. Render locally with `bookdown::render_book("index.Rmd")` or clicking the *Build book* button which should appear in the Build tab (in the same pane as Environment, History, Connections, ...).
+1. Instale **bookdown** com o comando `install.packages("bookdown")`. Se você já o tem, atualize-o para a [última versão](https://CRAN.R-project.org/package=bookdown).
 
-- [ ] 3. Use `browseURL("docs/index.html")` to view your book locally (or just open `index.html` in a browser).
+2. Renderize (*render*) localmente com o comando `bookdown::render_book("index.Rmd")`.
 
-- [ ] 4. If it looks good, commit and push all changed files to GitHub. 
+3. Use o comando `browseURL("docs/index.html")` para ver o livro localmente (ou simplesmente abra o arquivo `index.html` em um navegador).
 
-(You will need to repeat steps 2 and 4 every time you wish to update the book online.)
+4. Se a versão renderizada lhe agrada, comprometa (*commit*) e envie (*push*) todos os arquivos modificados para o GitHub. 
 
-### Edit README	(GitHub or RStudio)
+5. Vá ao GitHub, usando o comando `usethis::browse_github()`.
 
-Once you've completed these steps, delete the content of this **README** and add a short description of your project with a link to the book URL. It would be appreciated if you add the following to the end:	
+Você precisará repetir os passos 2 e 4 todas as vezes que quiser atualizar o livro online.
 
-*This repo was initially generated from a bookdown template available here: https://github.com/jtr13/bookdown-template.*
 
-(And starring the repo would be nice too!)
+### Edite o arquivo `README.md` usando GitHub ou RStudio
 
-### Demo Video
+Depois de concluir essas etapas, exclua o conteúdo deste arquivo e adicione uma breve descrição do seu projeto, com um link para o URL do livro. Agradeceríamos se você adicionasse o seguinte ao final:
 
-A demo video showing how to create a **bookdown book** following these instructions: http://bit.ly/fiveminutebookdown
+*Este repositório foi gerado inicialmente a partir de um modelo de bookdown disponível aqui: https://github.com/depaulats/modelo-bookdown/*
 
-### Additional features
 
-Please consult the official guide to **bookdown**: https://bookdown.org/yihui/bookdown
+### Informações adicionais
 
+Este repositório foi gerado inicialmente a partir de um modelo de bookdown disponível [aqui](https://github.com/jtr13/bookdown-template).
+
+Por favor consulte o vídeo demostrativo de [como criar um livro **bookdown**](http://bit.ly/fiveminutebookdown) e o [guia oficial do **bookdown**](https://bookdown.org/yihui/bookdown). 
