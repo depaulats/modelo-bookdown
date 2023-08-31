@@ -1,20 +1,22 @@
-This is a template for creating an [HTML GitBook style](https://bookdown.org/yihui/bookdown/html.html#gitbook-style) **[bookdown](https://github.com/rstudio/bookdown)** book, [hosted on GitHub Pages](https://bookdown.org/yihui/bookdown/github.html). It is based on the one created with *File, New Project..., New Directory, Book Project using bookdown* in RStudio. It assumes you know how to use git/GitHub and R Markdown, and have some familiarity with the **bookdown** package. If you don't, the package author Yihue Xie's RStudio webinar *[Introduction to Bookdown (R Package)](https://www.youtube.com/watch?v=dVqVscgwSpw)* provides an excellent introduction. In addition, check out [*bookdown: Authoring Books and Technical Documents with R Markdown*](https://bookdown.org/yihui/bookdown), also by Yihui Xie, both for the content and the format--it is itself a **bookdown** book.
-If you need help getting git/GitHub to work with RStudio see: [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan.
+Aqui você vai encontrar todos os arquivos base de modelo para criar um livro no estilo [HTML GitBook](https://bookdown.org/yihui/bookdown/html.html#gitbook-style)  **[bookdown](https://github.com/rstudio/bookdown)**, [hospedado nas páginas do GitHub](https://bookdown.org/yihui/bookdown/github.html). Este modelo foi adaptado para o português, tendo como base um projeto criado no RStudio pelo caminho *Arquivo > Novo Projeto... > Novo Diretório > Projeto de Livro usando bookdown*.
+Este tutorial passo-a-passo assume que você saiba usar git/GitHub e R Markdown, e tem alguma familiaridade com o pacote **bookdown**. Caso contrário, Yihue Xie, o autor do pacote bookdown, possui um webinário de {Introdução ao Bookdown](https://www.youtube.com/watch?v=dVqVscgwSpw) excelente (em inglês). Veja também outro livro do autor, [*bookdown: Authoring Books and Technical Documents with R Markdown*](https://bookdown.org/yihui/bookdown).
+Se precisar de ajuda para colocar o git/GitHub para funcionar com o RStudio, veja o tutorial de Jenny Bryan [Happy Git and GitHub for the useR](https://happygitwithr.com/). 
 
 
-## ABSOLUTE ESSENTIALS
+## Importante
 
-*If you have any difficulties or have feedback of any kind, please file an issue or communicate through [Discussions](https://github.com/jtr13/bookdown-template/discussions).*
+*Se você tiver qualquer dificuldade em usar este repositório, por favor [registre um problema](https://github.com/depaulats/modelo-bookdown/issues).*
 
-### Copy this template (GitHub)
 
-- [ ] 1. Click the green "Use this template" button above. DO NOT FORK THE REPO. Choose a descriptive name for your repo based on your content. (Unlike when you fork a repo, you get to choose the name. If you change your mind before you do any work, delete your new repo and start over.)
+### Copie este modelo no GitHub
 
-### Set up Pages (GitHub)
+1. Clique no butão verde acima "Use este modelo" (*Use this template*). NÃO USE A OPÇÃO FORK. Dê um nome descritivo para o seu repositório de acordo com o conteúdo que deseja produzir. (Ao contrário do Fork, aqui você pode escolher o nome. Se mudar de idéia logo no início, apague seu repositório, e comece novamente).
 
-- [ ] 1. On the home page of your repo, click Settings. Click the "Pages" section on the left. In the **Build and Deployment** section, set **Source** to "Deploy from a branch" (Classic Pages experience) and **Branch** to **main** with **/docs** folder. Click Save. Above the **Build and Deployment** section, a box will appear with your book's URL. Copy the URL. (Note that sometimes there is a delay until your book actually appears at that URL. If it doesn't appear after a few minutes, make a change and commit it to trigger a GitHub Pages build.)	
+### Configure as páginas do GitHub
 
-- [ ] 2. Click the gear button near "About" on the home page of the repo and paste your book URL into the **Website** field that appears on the right.
+1. Na página de início (*home*) do seu repositório, clique em configurações (*Settings*). Clique na seção "Páginas" (*Pages*) à esquerda. Na seção "Construção e Implantação" (*Build and Deployment*), defina a "Fonte" (*Source*) para "Implantar a partir de uma ramificação" (*Deploy from a branch*) e a "Ramificação" (*Branch*) para "principal" (*main*) com pasta "/docs". Clique em "Salvar" (*Save*). Acima da seção "Construção e Implantação" (*Build and Deployment*), um caixa de diálogo irá aparecer com a URL do seu livro. Copie a URL. (Note que algumas vezes há um atraso até que o livro aparece na URL. Se ele não aparecer após alguns minutos, mude e submeta (*commit*) algum arquivo para acionar a contrução das Páginas do GitHub.)GitHub Pages build.)	
+
+2. Clique no butão de engrenagem perto de "Sobre" (*About*) na página inicial do repositório e cole a URL do seu livro no campo "Website" que aparece à direita.
 
 ### Copy the repo link (GitHub)
 
